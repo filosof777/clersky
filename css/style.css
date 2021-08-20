@@ -20,7 +20,7 @@ body {
 .container {
   width: 1200px;
   padding: 0 10px;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 
 h2 {
@@ -229,7 +229,7 @@ header {
 .together-title {
   font-weight: 600;
   font-size: 48px;
-  width: 338px;
+  width: 350px;
   line-height: 54px;
   color: #163A24;
   margin-bottom: 27px;
@@ -474,6 +474,174 @@ header {
   background-color: #F2EFE6;
   box-shadow: 0 0 0 1px #198C36;
   transition: all 0.7s ease;
-  
+}
 
+.recource-pozition {
+  display: flex;
+  margin-top: 120px;
+  justify-content: center;
+  align-items: center;
+}
+
+.click-btn {
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid;
+  background-color: #198C36;
+  color:#fff;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.7s ease;
+  padding-bottom: 20px;
+}
+
+.click-btn:hover {
+  color: #198C36;
+  background-color: #F2EFE6;
+  box-shadow: 0 0 0 1px #198C36;
+  transition: all 0.7s ease;
+}
+
+.recource-text {
+  margin-bottom: 30px;
+}
+
+.clersky {
+  display: flex;
+  background-color: #163A24;
+  justify-content: space-between;
+}
+
+.clersky-title {
+  padding-top: 114px;
+  width: 549px;
+  color: white;
+  margin-bottom: 26px;
+}
+
+.clersky-text {
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #FBFAF7;
+  margin-bottom: 45px;
+}
+
+.clersky-btn {
+  text-decoration: none;
+  color: #163A24;
+  margin-left: 150px;
+  background-color: #FAB5A0;
+  padding: 12px;
+  border-radius: 50px;
+  line-height: 22px;
+  text-align: center;
+  transition: all 0.7s ease;
+}
+
+.clersky-btn:hover {
+  color: #FAB5A0;
+  background-color: #163A24;
+  box-shadow: 0 0 0 1px #FAB5A0;
+  transition: all 0.7s ease;
+}
+
+.sign-text a {
+  text-decoration: none;
+  color: #198C36;
+}
+
+.stay {
+  display: flex;
+  align-items: center;
+  background-color: #F2EFE6;
+}
+
+.stay-title {
+  width: 600px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 25px;
+
+}
+.stay-des {
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+
+.sign-section {
+  margin-top: 70px;
+  margin-bottom: 70px;
+
+}
+
+.stay-text {
+  text-align: center;
+}
+
+.sign-text {
+  width: 550px;
+  margin-top: 40px;
+}
+
+.sign-btn {
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid;
+  background-color: #198C36;
+  color:#fff;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.7s ease;
+}
+
+.sign-btn:hover {
+  color: #198C36;
+  background-color: #F2EFE6;
+  box-shadow: 0 0 0 1px #198C36;
+  transition: all 0.7s ease;
+}
+
+.footer {
+  margin-top: 45px;
+}
+
+.footer-pozition {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 44px;
+}
+
+.footer-list {
+  display: flex;
+}
+
+.footer-list {
+  list-style: none;
+}
+
+.footer-item {
+  margin-left: 20px;
+}
+
+.footer-comp {
+  display: flex;
+  border-top: 0.1px solid #ebc3c369;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.comp-list {
+  display: flex;
+  list-style: none;
+}
+
+.comp-item {
+  margin-left: 15px;
+  margin-bottom: 50px;
+}
+
+.comp-link {
+  color:#198C36;
+  text-decoration: none;  
 }
